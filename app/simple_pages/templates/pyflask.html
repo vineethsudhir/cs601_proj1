@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
-    <div class="col-sm-8 text-left">
+    <div class="row">
+        <div class="col-lg-8">
         <h1>Python/Flask</h1>
             <p class="grw-font">
                 The pytest framework makes it easy to write small, readable tests, and can scale to support complex functional testing for applications and libraries. Due to pytest’s detailed assertion introspection, only plain assert statements are used.
@@ -21,6 +22,28 @@
             <p>/test contains python files that run the required tests to check the working of the app</p>
             <p>In the root directory there are some extra files that help setup docker, heroku, and other required files.</p>
         </ul>
-
+        </div>
+        <div class="col-4">
+            <div class="card border-secondary mb-3" style="max-width: 20rem;">
+                <div class="card-header">In this article</div>
+            <div class="card-body">
+            <h4 class="card-title">Python/Flask</h4>
+            <ul>
+                <li>Link to repository</li>
+                <li>Project Structure</li>
+            </ul>
+            </div>
+            </div>
+            <div class="card border-secondary mb-3" style="max-width: 20rem;">
+                <div class="card-header">References</div>
+            <div class="card-body">
+            <h4 class="card-title">Meet the Author</h4>
+                <h5>Vinith Sudhir</h5>
+                <a href="github.vinith.in">Github</a>
+                <a href="cv.vinith.in">Linkedin</a>
+                <a href="twitter.vinith.in">Twitter</a>
+            </div>
+            </div>
+        </div>
     </div>
 {% endblock %}
