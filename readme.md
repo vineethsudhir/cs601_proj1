@@ -1,11 +1,11 @@
 # Project Setup
 
-[![Production Workflow](https://github.com/kaw393939/docker_flask/actions/workflows/prod.yml/badge.svg)](https://github.com/kaw393939/docker_flask/actions/workflows/prod.yml)
+[![Production Workflow](https://github.com/vineethsudhir/cs601_proj1/actions/workflows/prod.ymlbadge.svg)](https://github.com/vineethsudhir/cs601_proj1/blob/master/.github/workflows/dev.yml)
 
 * [Production Deployment](https://vs56-prod.herokuapp.com/)
 
 
-[![Development Workflow](https://github.com/kaw393939/docker_flask/actions/workflows/dev.yml/badge.svg)](https://github.com/kaw393939/docker_flask/actions/workflows/dev.yml)
+[![Development Workflow](https://github.com/vineethsudhir/cs601_proj1/actions/workflows/dev.yml/badge.svg)](https://github.com/vineethsudhir/cs601_proj1/blob/master/.github/workflows/prod.yml)
 
 * [Developmental Deployment](https://vs56-dev.herokuapp.com/)
 
