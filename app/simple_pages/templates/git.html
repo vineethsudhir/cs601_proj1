@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="col-sm-8 text-left">
+        <h1>Git</h1>
+            <p class="grw-font">
+                Git is a distributed, open-source version control system. It enables us to store code while protecting the version history and allows multiple project members to collaborate.
+            </p>
+        <h3>Branches</h3>
+            <p class="grw-font">
+                In Git, a branch is a seperate version of the main version. Branches allow you to work on different parts of a project without impacting the main branch. When the work is complete, a branch can be merged with the main project.
+            </p>
+        <h3>Merge</h3>
+        <p>Join two or more development histories together. Incorporates changes from the named commits (since the time their histories diverged from the current branch) into the current branch. This command is used by git pull to incorporate changes from another repository and can be used by hand to merge changes from one branch into another.</p>
+        <h3>Commit</h3>
+        <p>Commits are at the heart of Git usage. You can think of a commit as a snapshot of your project, where a new version of that project is created in the current repository. </p>
+        <h3>Tags</h3>
+        <p>Git has the ability to tag specific points in a repository’s history as being important. Typically, people use this functionality to mark release points</p>
+        <h3>Repositories</h3>
+        <p>A Git repository is the .git/ folder inside a project. This repository tracks all changes made to files in the project, building a history over time. Meaning, if we delete the .git/ folder, then we delete your project’s history.</p>
+    </div>
+{% endblock %}

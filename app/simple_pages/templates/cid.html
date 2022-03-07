@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="col-sm-8 text-left">
+        <h1>Continuous Integration and Continuous Deployment</h1>
+        <h3>Continuous Integration</h3>
+            <p class="grw-font">
+                Continuous Integration is a software development practice where members of a team integrate their work frequently, usually each person integrates at least daily - leading to multiple integrations per day. Each integration is verified by an automated build. The term 'Continuous Integration' originated with Kent Beck's Extreme Programming development process, as one of its original twelve practices.
+            </p>
+        <h4>Best practices for Continuous integration</h4>
+    <ul>
+        <li>Maintain a Single Source Repository.</li>
+        <li>Automate the Build.</li>
+        <li>Builds should be Self-Testing.</li>
+        <li>Every Commit Should Build the Mainline on an Integration Machine</li>
+        <li>Fix Broken Builds Immediately.</li>
+        <li>Keep the Build Fast.</li>
+        <li>Test in a Clone of the Production Environment.</li>
+        <li>Make it Easy for Anyone to Get the Latest Executable.</li>
+        <li>Automate the Deployment process</li>
+    </ul>
+    <h3>Continuous Delivery</h3>
+    <p>Continuous Delivery (CD) is the process to build, test, configure, and deploy from a build to a production environment. Multiple testing or staging environments create a Release Pipeline to automate the creation of infrastructure and deployment of a new build. Successive environments support progressively longer-running activities of integration, load, and user acceptance testing. Continuous Integration starts the CD process and the pipeline stages each successive environment to the next upon successful completion of tests.</p>
+    </div>
+{% endblock %}
