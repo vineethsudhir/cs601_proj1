@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="col-sm-8 text-left">
+        <h1>Python/Flask</h1>
+            <p class="grw-font">
+                The pytest framework makes it easy to write small, readable tests, and can scale to support complex functional testing for applications and libraries. Due to pytest’s detailed assertion introspection, only plain assert statements are used.
+            </p>
+        <p>We created HTML pages for the website. The main HTML page included a base template containing a navigation bar which has been called by all the other html page. All the pages are located in simple_pages/templates. These pages are styled using bootstrap templates. The prescense of these pages are checked by a python file called simple_pages_test.py located in /test directory. This test file asserts if the pages are present can checks if they are being loaded withot any HTML error.</p>
+        <h3>Link to Repository</h3>
+        <p><a href="https://github.com/vineethsudhir/cs601_proj1">This</a> link can be used to visit the repository on github</p>
+        <h4>Flask</h4>
+        <p><a href="https://flask.palletsprojects.com/en/2.0.x/">Flask documentation</a></p>
+        <p><a href="https://exploreflask.com/en/latest/blueprints.html">Flask blueprint</a></p>
+        <h3>Project Structure</h3>
+        <p>/.github folder contains /workflows. In this directory, there are 4 files what link the main branch to the heroku production app and other branches to heroku developement app. The heroku app name, and data such as username and password is stored in these files.</p>
+        <p>/app contains 3 folders</p>
+        <ul>
+            <p>/simple_pages which has html files that are being served</p>
+            <p>/static contains scripts, images and stylesheets</p>
+            <p>/templates contains base.html which has the navbar stored in it.</p>
+            <p>/test contains python files that run the required tests to check the working of the app</p>
+            <p>In the root directory there are some extra files that help setup docker, heroku, and other required files.</p>
+        </ul>
+
+    </div>
+{% endblock %}

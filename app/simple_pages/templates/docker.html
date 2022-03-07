@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="col-sm-8 text-left">
+        <h1>Docker</h1>
+            <p class="grw-font">
+                Docker is an open-source project for automating the deployment of applications as portable, self-sufficient containers that can run on the cloud or on-premises.
+            </p>
+        <h3>Containers</h3>
+            <p class="grw-font">
+                A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another.
+            </p>
+        <h3>Images</h3>
+            <p class="grw-font">
+                 A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
+            </p>
+        <p>
+            <a href="https://hub.docker.com/repositories">This</a> is a link to my docker hub account where you can find a few container images.
+        </p>
+        <h4>Docker commands</h4>
+        Build an image from dockerfile<br/>
+        <code>docker build -t myimage:1.0</code><br>
+        List all images that are locally stored with the Docker Engine<br/>
+        <code>docker image ls</code><br>
+        Pull an image from dockerhub<br/>
+        <code>docker pull myimage:1.0</code><br>
+        List all containers<br/>
+        <code>docker container ls</code><br>
+        <h3>To run this project:</h3>
+        <p>From the root directory, run</p>
+        <code>docker-compose up --build</code>
+    </div>
+
+{% endblock %}
