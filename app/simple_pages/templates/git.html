@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
-    <div class="col-sm-8 text-left">
+    <div class="row">
+        <div class="col-lg-8">
         <h1>Git</h1>
             <p class="grw-font">
                 Git is a distributed, open-source version control system. It enables us to store code while protecting the version history and allows multiple project members to collaborate.
@@ -17,5 +18,34 @@
         <p>Git has the ability to tag specific points in a repository’s history as being important. Typically, people use this functionality to mark release points</p>
         <h3>Repositories</h3>
         <p>A Git repository is the .git/ folder inside a project. This repository tracks all changes made to files in the project, building a history over time. Meaning, if we delete the .git/ folder, then we delete your project’s history.</p>
+        </div>
+        <div class="col-4">
+            <div class="card border-secondary mb-3" style="max-width: 20rem;">
+                <div class="card-header">In this article</div>
+            <div class="card-body">
+            <h4 class="card-title">GIT</h4>
+            <ul>
+                <li>Branches</li>
+                <li>Merge</li>
+                <li>Commit</li>
+                <li>Tags</li>
+                <li>Repositories</li>
+            </ul>
+            </div>
+            </div>
+            <div class="card border-secondary mb-3" style="max-width: 20rem;">
+                <div class="card-header">References</div>
+            <div class="card-body">
+            <h4 class="card-title">Meet the Author</h4>
+                <h5>Vinith Sudhir</h5>
+                <a href="github.vinith.in">Github</a>
+                <a href="cv.vinith.in">Linkedin</a>
+                <a href="twitter.vinith.in">Twitter</a>
+            </div>
+            </div>
+        </div>
+
+
     </div>
+
 {% endblock %}

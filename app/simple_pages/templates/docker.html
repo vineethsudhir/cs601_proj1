@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
-    <div class="col-sm-8 text-left">
+    <div class="row">
+        <div class="col-lg-8">
         <h1>Docker</h1>
             <p class="grw-font">
                 Docker is an open-source project for automating the deployment of applications as portable, self-sufficient containers that can run on the cloud or on-premises.
@@ -29,5 +30,29 @@
         <p>From the root directory, run</p>
         <code>docker-compose up --build</code>
     </div>
-
+    <div class="col-4">
+            <div class="card border-secondary mb-3" style="max-width: 20rem;">
+                <div class="card-header">In this article</div>
+            <div class="card-body">
+            <h4 class="card-title">Docker</h4>
+            <ul>
+                <li>Containers</li>
+                <li>Images</li>
+                <li>Commands</li>
+                <li>Run this project</li>
+            </ul>
+            </div>
+            </div>
+            <div class="card border-secondary mb-3" style="max-width: 20rem;">
+                <div class="card-header">References</div>
+            <div class="card-body">
+            <h4 class="card-title">Meet the Author</h4>
+                <h5>Vinith Sudhir</h5>
+                <a href="github.vinith.in">Github</a>
+                <a href="cv.vinith.in">Linkedin</a>
+                <a href="twitter.vinith.in">Twitter</a>
+            </div>
+            </div>
+        </div>
+    </div>
 {% endblock %}
