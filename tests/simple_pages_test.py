@@ -8,7 +8,6 @@ def test_request_main_menu_links(client):
     assert b'<a class="nav-link" href="/docker">Docker</a>' in response.data
     assert b'<a class="nav-link" href="/pyflask">Python/Flask</a>' in response.data
     assert b'<a class="nav-link" href="/cid">Continuous Integration and Deployment</a>' in response.data
-    assert b'<a class="nav-link" href="/page4">Page 4</a>' in response.data
 
 def test_request_index(client):
     """This makes the index page"""
