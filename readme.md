@@ -1,6 +1,6 @@
 # Project Setup
 
-[![Production Workflow](https://github.com/vineethsudhir/cs601_proj1/actions/workflows/prod.ymlbadge.svg)](https://github.com/vineethsudhir/cs601_proj1/blob/master/.github/workflows/dev.yml)
+[![Production Workflow](https://github.com/vineethsudhir/cs601_proj1/actions/workflows/prod.yml/badge.svg)](https://github.com/vineethsudhir/cs601_proj1/blob/master/.github/workflows/dev.yml)
 
 * [Production Deployment](https://vs56-prod.herokuapp.com/)
 
