@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="row">
+        <div class="col-lg-8">
+        <h1>Object Oriented Programming Concepts</h1>
+            <p class="grw-font">
+                Git is a distributed, open-source version control system. It enables us to store code while protecting the version history and allows multiple project members to collaborate.
+            </p>
+        <h3>Overview of OOP Terminology</h3>
+            <ul>
+                <li><h4>Class</h4><p>A user-defined prototype for an object that defines a set of attributes that characterize any object of the class. The attributes are data members (class variables and instance variables) and methods, accessed via dot notation.</p></li>
+                <li><h4>Object </h4><p>A unique instance of a data structure that's defined by its class. An object comprises both data members (class variables and instance variables) and methods.</p></li>
+                <li><h4>Instantiation</h4><p>Used to create an object instance from a class</p><p>To instantiate is to create such an instance by, for example, defining one particular variation of object within a class, giving it a name, and locating it in some physical place. 1) In object-oriented programming, some writers say that you instantiate a class to create an object, a concrete instance of the class.</p></li>
+                <li><h4>Namespace</h4><p>Namespace is the approach of grouping named scope to avoid conflicts with similar names as used in other scopes. Namespace block contains symbols that are grouped into a named scope to avoid conflicts with similarly named symbols in other scopes.</p><p>Better organization by grouping classes that work together Same name to be used for more than one class without conflicts</p></li>
+                <li><h4>Constructor</h4><p>Constructor is a special method. It is called wherever a new object is created. A constructor enables an object to initialize itself at the time of creation. A Constructor has the same naem as that of the class.</p></li>
+                <li><h4>Fixture</h4><p>Software test fixtures initialize test functions. They provide a fixed baseline so that tests execute reliably and produce consistent, repeatable, results. Initialization may setup services, state, or other operating environments. These are accessed by test functions through arguments; for each fixture used by a test function there is typically a parameter (named after the fixture) in the test function’s definition.</p></li>
+                <li><h4>Type Hint</h4><p>Type hinting can also be used to force a function to get an argument of type Object. For this purpose, we put the name of the class in front of the argument name in the function.</p></li>
+                <li><h4>Type Cast</h4><p>Type Casting is the method to convert the variable data type into a certain data type in order to the operation required to be performed by users.</p></li>
+                <li><h4>Unit Test</h4><p>Unit Testing in Python is a way of ascertaining whether a software unit performs the intended functionality in the way it is designed. The software unit may be a module or function or an interface with another module. This testing is done mostly at the developer’s level for the code he develops before it is passed on to the next level of integrated testing. Python facilitates developers to create test cases covering all possible scenarios in their program during real-time execution and document all the test cases and their results.</p></li>
+                <li><h4>Static</h4><p>When we declare a variable inside a class, but outside the method, it is called a static or class variable. It can be called directly from a class but not through the instances of a class. However, the static variables are quite different from the other member, and it does not conflict with the same variable name in the Python program</p></li>
+                <li><h4>Instance Method</h4><p>A temporary copy of the method which will only exist as long as the object is being used.</p></li>
+                <li><h4>Instance Property</h4><p>Specific modifications to a method which olny apply to an instance of the method.</p></li>
+                <li><h4>Static Method</h4><p>Static properties can be called directly - without creating an instance of a class.</p></li>
+                <li><h4>Static Property</h4><p>Static methods can be called directly - without creating an instance of the class first. Static methods are declared with the static keyword</p></li>
+                <li><h4>Encapsulation</h4><p>Encapsulation refers to the bundling of data, along with the methods that operate on that data, into a single unit. Python uses encapsulation frequently in the form of classes.</p></li>
+                <li><h4>Inheritance</h4><p>Inheritance is the procedure in which one class inherits the attributes and methods of another class. The class whose properties and methods are inherited is known as the Parent class. And the class that inherits the properties from the parent class is the Child class.</p></li>
+                <li><h4>Polymorphism</h4><p>Polymorphism is the method in an object-oriented programming language that performs different things as per the object’s class, which calls it. With Polymorphism, a message is sent to multiple class objects, and every object responds appropriately according to the properties of the class.</p></li>
+                <li><h4>Abstraction</h4><p>It is hiding the complexity of implementation. Therefore able to design things on top of abstract information but do not want to worry about implementation. So abstraction is a better design-level concept to planning the program without thinking about the complexity of the implementation.</p></li>
+            </ul>
+        </div>
+        <div class="col-4">
+            <div class="card border-secondary mb-3" style="max-width: 20rem;">
+                <div class="card-header">In this article</div>
+            <div class="card-body">
+            <h4 class="card-title">OOP concepts</h4>
+            <ul>
+                <li>Class</li>
+                <li>Object</li>
+                <li>Instantiation</li>
+                <li>Namespace</li>
+                <li>Constructor</li>
+                <li>Fixture</li>
+                <li>Type Hint</li>
+                <li>Type Cast</li>
+                <li>Unit test</li>
+                <li>Static</li>
+                <li>Instance Method</li>
+                <li>Instance Property</li>
+                <li>Static Method</li>
+                <li>Static Property</li>
+                <li>Encapsulation</li>
+                <li>Inheritance</li>
+                <li>Polymorphism</li>
+                <li>Abstraction</li>
+            </ul>
+            </div>
+            </div>
+                <div class="card border-secondary mb-3" style="max-width: 20rem;">
+                <div class="card-header">References</div>
+            <div class="card-body">
+            <h4 class="card-title">Other useful links</h4>
+            <ul>
+                <li><a href="https://www.ennicode.com/category/object-oriented-programming/">object oriented programming- Ennicode</a></li>
+                <li><a href="https://www.educba.com/">Unit testing- EDU CBA</a></li>
+            </ul>
+            </div>
+            </div>
+            <div class="card border-secondary mb-3" style="max-width: 20rem;">
+                <div class="card-header">References</div>
+            <div class="card-body">
+            <h4 class="card-title">Meet the Author</h4>
+                <h5>Vinith Sudhir</h5>
+                <a href="github.vinith.in">Github</a>
+                <a href="cv.vinith.in">Linkedin</a>
+                <a href="twitter.vinith.in">Twitter</a>
+            </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
