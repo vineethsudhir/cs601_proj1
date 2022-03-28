@@ -9,9 +9,22 @@
         <h3>Single Responsibility Principle</h3>
             <p>This principle states that “a class should have only one reason to change” which means every class should have a single responsibility or single job or single purpose. Take the example of developing software. The task is divided into different members doing different things as front-end designers do design, the tester does testing and backend developer takes care of backend development part then we can say that everyone has a single job or responsibility.</p>
             <p>Most of the time it happens that when programmers have to add features or new behavior they implement everything into the existing class which is completely wrong. It makes their code lengthy, complex and consumes time when later something needs to be modified. Use layers in your application and break God classes into smaller classes or modules.</p>
+            <pre><code>class Add:
+    @staticmethod
+    def add(num1, num2):
+        add_res = num1 + num2
+        return add_res
+        return add_res</code></pre>
         <h3>Open/Closed Principle</h3>
             <p>This principle states that “software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification” which means you should be able to extend a class behavior, without modifying it.</p>
             <p>Suppose developer A needs to release an update for a library or framework and developer B wants some modification or add some feature on that then developer B is allowed to extend the existing class created by developer A but developer B is not supposed to modify the class directly. Using this principle separates the existing code from the modified code so it provides better stability, maintainability and minimizes changes as in your code.</p>
+            <pre><code>class Add:
+    @staticmethod
+    def add(num1, num2):
+        add_res = num1 + num2
+        return add_res
+        return add_res</code></pre>
+            <p>As we can see in the above example, the classes contain static method which close current functionalities for modifications but new methods can be added to add features</p>
         <h3>Liskov’s Substitution Principle</h3>
             <p>The principle was introduced by Barbara Liskov in 1987 and according to this principle “Derived or child classes must be substitutable for their base or parent classes“. This principle ensures that any class that is the child of a parent class should be usable in place of its parent without any unexpected behavior.</p>
             <p>You can understand it in a way that a farmer’s son should inherit farming skills from his father and should be able to replace his father if needed. If the son wants to become a farmer then he can replace his father but if he wants to become a cricketer then definitely the son can’t replace his father even though they both belong to the same family hierarchy.</p>
