@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="row">
+        <div class="col-lg-8">
+        <h2>What is AAA Testing?</h2>
+        <p>A test is a procedure that exercises a behavior to determine if the behavior functions correctly. There are many different kinds of tests, like unit tests, integration tests, or end-to-end tests, but all functional tests do the same basic thing: they try something and report PASS or FAIL.</p>
+        <p>Testing provides an empirical feedback loop for development. That’s how testing keeps us safe. With tests, we know when things break. Without tests, coding can be dangerous. We don’t want to deploy  bugs! </p>
+        <p>So, if we intend to spend time writing tests, how can we write good tests? There’s a simple but powerful pattern I like to follow: Arrange-Act-Assert. </p></p>
+        <h2>Why is AAA Testing Important?</h2>
+        <p>Unit testing ensures that all code meets quality standards before it's deployed. This ensures a reliable engineering environment where quality is paramount. Over the course of the product development life cycle, unit testing saves time and money, and helps developers write better code, more efficiently.</p>
+        <h1>AAA testing</h1>
+            <p class="grw-font">
+                AAA pattern suggests that we should layout our tests in to 3 sections; Arrange, Act, Assert. Each part is responsible for a specific concern of a test case.
+            </p>
+        <h3 id="merge">Arrange</h3>
+        <p>
+            In this section, we perform the setyp and initialization required for the test. This usually involves creating data required for a test case and / or setting up the mocks.
+        </p>
+        <h3>Act</h3>
+        <p>Commits are at the heart of Git usage. You can think of a commit as a snapshot of your project, where a new version of that project is created in the current repository. </p>
+        <h3>Assert</h3>
+        <p>Git has the ability to tag specific points in a repository’s history as being important. Typically, people use this functionality to mark release points</p>
+        </div>
+        <div class="col-4">
+            <div class="card border-secondary mb-3" style="max-width: 20rem;">
+                <div class="card-header">In this article</div>
+            <div class="card-body">
+            <h4 class="card-title">AAA testing</h4>
+            <ul>
+                <li>Arrange</li>
+                <li>Act</li>
+                <li>Assert</li>
+            </ul>
+            </div>
+            </div>
+                <div class="card border-secondary mb-3" style="max-width: 20rem;">
+                <div class="card-header">References</div>
+            <div class="card-body">
+            <h4 class="card-title">Other useful links</h4>
+            <ul>
+                <li><a href="https://git-scm.com/doc">Git documentation</a></li>
+                <li><a href="https://medium.com/xebia-engineering/unit-testing-aaa-pattern-ab1c08737d53">AAA testing pattern- Medium</a></li>
+            </ul>
+            </div>
+            </div>
+            <div class="card border-secondary mb-3" style="max-width: 20rem;">
+                <div class="card-header">References</div>
+            <div class="card-body">
+            <h4 class="card-title">Meet the Author</h4>
+                <h5>Vinith Sudhir</h5>
+                <a href="github.vinith.in">Github</a>
+                <a href="cv.vinith.in">Linkedin</a>
+                <a href="twitter.vinith.in">Twitter</a>
+            </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
