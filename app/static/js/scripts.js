@@ -11,12 +11,12 @@ function AddActive() {
         if(pageUrl){
             if(pageUrl.startsWith(divId)){
 
-                $(this).addClass("nav-link-active");
+                $(this).addClass(" active");
                 return false;
             }
         }
         else{
-            $('#home').addClass("current");
+            $('#home').addClass(" active");
             return false;
         }
     })
