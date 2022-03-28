@@ -2,34 +2,33 @@
 {% block content %}
     <div class="row">
         <div class="col-lg-8">
-        <h1>Git</h1>
+        <h1>pylint</h1>
             <p class="grw-font">
-                Git is a distributed, open-source version control system. It enables us to store code while protecting the version history and allows multiple project members to collaborate.
+                Pylint is a source-code, bug and quality checker for the Python programming language. It is named following a common convention in Python of a "py" prefix, and a nod to the C programming lint program.
             </p>
-        <h3>Branches</h3>
+        <h1>AAA testing</h1>
             <p class="grw-font">
-                In Git, a branch is a seperate version of the main version. Branches allow you to work on different parts of a project without impacting the main branch. When the work is complete, a branch can be merged with the main project.
+                AAA pattern suggests that we should layout our tests in to 3 sections; Arrange, Act, Assert. Each part is responsible for a specific concern of a test case.
             </p>
-        <h3 id="merge">Merge</h3>
-        <p>Join two or more development histories together. Incorporate changes from the named commits (since the time their histories diverged from the current branch) into the current branch. This command is used by git pull to incorporate changes from another repository and can be used by hand to merge changes from one branch into another.</p>
-        <h3>Commit</h3>
+        <h3 id="merge">Arrange</h3>
+        <p>
+            In this section, we perform the setyp and initialization required for the test. This usually involves creating data required for a test case and / or setting up the mocks.
+        </p>
+        <h3>Act</h3>
         <p>Commits are at the heart of Git usage. You can think of a commit as a snapshot of your project, where a new version of that project is created in the current repository. </p>
-        <h3>Tags</h3>
+        <h3>Assert</h3>
         <p>Git has the ability to tag specific points in a repository’s history as being important. Typically, people use this functionality to mark release points</p>
-        <h3>Repositories</h3>
-        <p>A Git repository is the .git/ folder inside a project. This repository tracks all changes made to files in the project, building a history over time. Meaning, if we delete the .git/ folder, then we delete your project’s history.</p>
         </div>
         <div class="col-4">
             <div class="card border-secondary mb-3" style="max-width: 20rem;">
                 <div class="card-header">In this article</div>
             <div class="card-body">
-            <h4 class="card-title">GIT</h4>
+            <h4 class="card-title">pylint</h4>
+            <h4 class="card-title">AAA testing</h4>
             <ul>
-                <li>Branches</li>
-                <li>Merge</li>
-                <li>Commit</li>
-                <li>Tags</li>
-                <li>Repositories</li>
+                <li>Arrange</li>
+                <li>Act</li>
+                <li>Assert</li>
             </ul>
             </div>
             </div>
@@ -38,8 +37,8 @@
             <div class="card-body">
             <h4 class="card-title">Other useful links</h4>
             <ul>
-                <li><a href="https://git-scm.com/doc">Git documentation</a></li>
-                <li><a href="https://education.github.com/git-cheat-sheet-education.pdf">Git cheetsheet</a></li>
+                <li><a href="https://docs.pylint.org/en/1.6.0/run.html">pylint documentation</a></li>
+                <li><a href="https://medium.com/xebia-engineering/unit-testing-aaa-pattern-ab1c08737d53">AAA testing pattern- Medium</a></li>
             </ul>
             </div>
             </div>
