@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
+    <br>
     <div class="row">
         <div class="col-lg-8">
         <h2>What is AAA Testing?</h2>
@@ -21,8 +22,21 @@
         <p>Commits are at the heart of Git usage. You can think of a commit as a snapshot of your project, where a new version of that project is created in the current repository. </p>
         <h3>Assert</h3>
         <p>Git has the ability to tag specific points in a repository’s history as being important. Typically, people use this functionality to mark release points</p>
+        <h3>Example from the calculator application</h3><pre><code>def num_list():
+    """Arranging for AAA Testing"""
+    return 1.0, 2
+
+
+def testing_add_method():
+    """Testing the Calculator"""
+    # Act for AAA testing
+
+    result = CalculatorMain.add(num_list())
+
+    # Assert for AAA testing
+    assert result == 3</code></pre>
         </div>
-        <div class="col-4">
+        <div class="col-sm">
             <div class="card border-secondary mb-3" style="max-width: 20rem;">
                 <div class="card-header">In this article</div>
             <div class="card-body">
@@ -31,6 +45,7 @@
                 <li>Arrange</li>
                 <li>Act</li>
                 <li>Assert</li>
+                <li>Example</li>
             </ul>
             </div>
             </div>

@@ -11,12 +11,12 @@ function AddActive() {
         if(pageUrl){
             if(pageUrl.startsWith(divId)){
 
-                $(this).addClass(" active");
+                $(this).addClass("current");
                 return false;
             }
         }
         else{
-            $('#home').addClass(" active");
+            $('#home').addClass("current");
             return false;
         }
     })
