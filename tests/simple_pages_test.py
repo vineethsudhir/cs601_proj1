@@ -39,6 +39,30 @@ def test_request_page3(client):
     assert response.status_code == 200
     assert b"Continuous Integration and Deployment" in response.data
 
+def test_request_page4(client):
+    """This makes the index page"""
+    response = client.get("/oop")
+    assert response.status_code == 200
+    assert b"Object Oriented Programming Concepts" in response.data
+
+def test_request_page5(client):
+    """This makes the index page"""
+    response = client.get("/aaa")
+    assert response.status_code == 200
+    assert b"What is AAA Testing?" in response.data
+
+def test_request_page6(client):
+    """This makes the index page"""
+    response = client.get("/pylin")
+    assert response.status_code == 200
+    assert b"Object Oriented Concepts in the calculator app" in response.data
+
+def test_request_page7(client):
+    """This makes the index page"""
+    response = client.get("/solid")
+    assert response.status_code == 200
+    assert b"SOLID" in response.data
+
 
 def test_request_page_not_found(client):
     """This makes the index page"""
